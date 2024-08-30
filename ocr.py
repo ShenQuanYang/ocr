@@ -2,6 +2,9 @@ import cv2
 import pytesseract
 from pytesseract import Output
 import re
+import numpy as np
+import pandas as pd
+import matplotlib as plt
 
 # 加载图像
 image = cv2.imread('example.png')
